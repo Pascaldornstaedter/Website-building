@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* Fixed header is 72px tall */
+  scroll-padding-top: 80px;
+}
+
+@layer base {
+  :root {
+    /* Brand: bg #0A0A0A, primary #00FF66, secondary #075426, text on primary #0A0A0A, links #9CA3AF */
+    --background: 220 14% 6%;
+    --foreground: 0 0% 95%;
+    --card: 220 12% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 220 12% 10%;
+    --popover-foreground: 0 0% 95%;
+    /* #00FF66 */
+    --primary: 144 100% 50%;
+    /* #0A0A0A on primary surfaces */
+    --primary-foreground: 0 0% 4%;
+    /* #075426 */
+    --secondary: 144 85% 18%;
+    --secondary-foreground: 0 0% 93%;
+    --muted: 220 10% 12%;
+    /* Body secondary / supportive text — close to link */
+    --muted-foreground: 218 12% 74%;
+    --accent: 144 100% 50%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 62.8% 45%;
+    --destructive-foreground: 0 0% 98%;
+    /* Hairline separators — green-tinted, not harsh gray */
+    --border: 144 14% 24%;
+    --input: 144 14% 24%;
+    --ring: 144 100% 50%;
+    /* #9CA3AF */
+    --link: 218 11% 65%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-semibold tracking-tight text-foreground;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply relative overflow-x-clip;
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(ellipse 120% 85% at 50% -30%, hsl(144 100% 50% / 0.1), transparent 55%),
+      radial-gradient(ellipse 90% 55% at 100% 0%, hsl(144 85% 18% / 0.42), transparent 50%),
+      radial-gradient(ellipse 75% 55% at 0% 45%, hsl(210 90% 58% / 0.06), transparent 48%);
+  }
+
+  /* Soft flow between sections — no hard horizontal rules */
+  .section-flow {
+    @apply relative;
+  }
+  .section-flow::before {
+    content: "";
+    @apply pointer-events-none absolute left-1/2 top-0 h-px w-[min(72rem,92%)] -translate-x-1/2;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--primary) / 0.24),
+      transparent
+    );
+  }
+  .section-flow::after {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 bottom-0 h-16;
+    background: linear-gradient(to bottom, transparent, hsl(var(--background) / 0.82));
+  }
+
+  /* Reusable section overlays keep background rhythm aligned across chapters */
+  .section-overlay-soft {
+    @apply pointer-events-none absolute inset-0;
+    background-image:
+      radial-gradient(ellipse 85% 60% at 12% 18%, hsl(215 80% 68% / 0.05), transparent 58%),
+      linear-gradient(
+        to bottom,
+        transparent,
+        hsl(220 18% 18% / 0.16) 42%,
+        transparent
+      );
+    mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+  }
+
+  .section-overlay-strong {
+    @apply pointer-events-none absolute inset-0;
+    background-image:
+      radial-gradient(ellipse 90% 64% at 88% 20%, hsl(220 84% 72% / 0.06), transparent 56%),
+      linear-gradient(
+        to bottom,
+        hsl(220 20% 17% / 0.3),
+        transparent 36%,
+        hsl(220 16% 16% / 0.16) 100%
+      );
+    mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+  }
+
+  .surface-card {
+    @apply rounded-2xl bg-card/55 shadow-[0_0_0_1px_hsl(var(--primary)/0.16),0_24px_48px_-24px_rgba(0,0,0,0.58)] backdrop-blur-sm transition-colors duration-300;
+  }
+  .surface-card:hover {
+    @apply bg-card/70 shadow-[0_0_0_1px_hsl(var(--primary)/0.24),0_30px_58px_-28px_rgba(0,0,0,0.64)];
+  }
+
+  .eyebrow {
+    @apply font-dm text-xs font-semibold uppercase tracking-[0.2em] text-primary/85;
+  }
+
+  .loader {
+    @apply inline-block h-8 w-8 rounded-full border-2 border-primary/25 border-t-primary animate-loader-spin;
+  }
+
+  .hero-spline canvas {
+    background: transparent !important;
+  }
+}
