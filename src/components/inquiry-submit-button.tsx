@@ -1,10 +1,12 @@
 "use client";
 
 import { Loader2 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useFormStatus } from "react-dom";
 
 export function InquirySubmitButton() {
   const { pending } = useFormStatus();
+  const t = useTranslations("Inquiry.form");
 
   return (
     <button
@@ -15,10 +17,10 @@ export function InquirySubmitButton() {
       {pending ? (
         <>
           <Loader2 className="h-4 w-4 animate-spin" aria-hidden />
-          Sending inquiry...
+          {t("submitting")}
         </>
       ) : (
-        "Send Inquiry"
+        t("submit")
       )}
     </button>
   );

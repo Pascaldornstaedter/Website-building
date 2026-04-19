@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { HeroSection } from "@/components/hero-section";
@@ -8,7 +9,14 @@ import { ProcessSection } from "@/components/sections/process-section";
 import { FaqSection } from "@/components/sections/faq-section";
 import { InquirySection } from "@/components/sections/inquiry-section";
 
-export default function Home() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <main id="top" className="min-h-screen pt-[72px]">
       <SiteHeader />

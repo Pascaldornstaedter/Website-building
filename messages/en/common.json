@@ -1,0 +1,198 @@
+{
+  "Metadata": {
+    "site": {
+      "title": "Eurolux Digital | Websites That Win Business",
+      "description": "Eurolux Digital helps businesses build, redesign, and upgrade websites that look professional, build trust, and generate leads."
+    },
+    "imprint": {
+      "title": "Imprint | Eurolux Digital",
+      "description": "Legal disclosure and company information for Eurolux Group."
+    },
+    "privacy": {
+      "title": "Data Privacy | Eurolux Digital",
+      "description": "Privacy policy and data protection information for Eurolux Group."
+    }
+  },
+  "Nav": {
+    "services": "Services",
+    "why": "Why Work With Us",
+    "process": "Process",
+    "faq": "FAQ",
+    "cta": "Request a Website Inquiry",
+    "brand": "Eurolux Digital",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "langDe": "DE",
+    "langEn": "EN"
+  },
+  "Hero": {
+    "eyebrow": "Build. Redesign. Upgrade.",
+    "title": "Unique websites which represent your brand accurately.",
+    "subtitle": "We help companies launch modern, high-credibility websites that build trust, clarify their offer and generate more qualified inquiries.",
+    "ctaPrimary": "Tell Me About Your Project",
+    "ctaSecondary": "See How It Works",
+    "footnoteHtml": "Not sure what you need? Inquire for a <strong>new website</strong>, <strong>redesign</strong>, <strong>upgrade</strong> or <strong>ongoing improvements</strong>."
+  },
+  "Problem": {
+    "eyebrow": "The Business Problem",
+    "heading": "Your website may be costing you trust before you even talk to a client.",
+    "items": [
+      {
+        "title": "Outdated First Impression",
+        "body": "If your site looks old or inconsistent, prospects may assume your service quality is the same."
+      },
+      {
+        "title": "Unclear Value",
+        "body": "Visitors leave when they cannot quickly understand what you do and why they should choose you for their specific needs."
+      },
+      {
+        "title": "Limited Platforms",
+        "body": "Basic builder setups often restrict performance, flexibility and long-term growth."
+      },
+      {
+        "title": "Weak Conversion Flow",
+        "body": "A website that only exists online is not enough — it should guide users toward inquiry."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "heading": "Different website services designed for specific business needs.",
+    "items": [
+      {
+        "title": "New Website Development",
+        "body": "Build a professional website from scratch with a clear structure, strong messaging and lead-focused pages."
+      },
+      {
+        "title": "Website Redesign",
+        "body": "Transform an outdated site into a modern, credible experience that reflects the level of your business."
+      },
+      {
+        "title": "Website Upgrade / Migration",
+        "body": "Move beyond limited platforms to a more professional setup with better flexibility and performance."
+      },
+      {
+        "title": "Ongoing Improvements / Updates",
+        "body": "Keep your website current with continuous refinements, feature updates and conversion enhancements."
+      }
+    ]
+  },
+  "Why": {
+    "eyebrow": "Why Work With Me",
+    "heading": "Optimal execution for all industries.",
+    "body": "You get a team based in Germany with a process built around your specific business goals, speed and clarity.",
+    "imageAlt": "Hamburg harbor skyline at dusk representing strong logistics and business infrastructure",
+    "benefits": [
+      "Modern, premium visual direction aligned with business credibility",
+      "Custom strategy and structure, not one-size-fits-all templates",
+      "Fast, clear collaboration with direct communication",
+      "Conversion-focused decisions from layout to messaging to CTAs",
+      "Practical support for moving beyond outdated or limited setups",
+      "Built around your real-world goals: inquiries, trust and growth"
+    ]
+  },
+  "Process": {
+    "eyebrow": "Simple Process",
+    "heading": "A clear path from inquiry to launch.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Inquiry",
+        "body": "Share your current website situation, goals and priorities."
+      },
+      {
+        "num": "02",
+        "title": "Concept / Review",
+        "body": "Define structure, direction and the right approach for your business."
+      },
+      {
+        "num": "03",
+        "title": "Build / Redesign",
+        "body": "Implement a polished, conversion-oriented website experience."
+      },
+      {
+        "num": "04",
+        "title": "Launch / Optimize",
+        "body": "Go live confidently and improve continuously where it matters."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "heading": "Common questions before we start.",
+    "items": [
+      {
+        "q": "Do you also redesign existing websites?",
+        "a": "Yes. Redesign projects are a core service, especially for companies with outdated design, structure or messaging."
+      },
+      {
+        "q": "Do you offer ongoing updates after launch?",
+        "a": "Yes. Ongoing support is available for iterative improvements, content updates and performance refinements."
+      },
+      {
+        "q": "How does the process start?",
+        "a": "Start with a website inquiry. Share your goals and current challenges, then we provide a recommended next step."
+      },
+      {
+        "q": "Do you provide a custom solution for my business?",
+        "a": "Yes. Every project is tailored to your business context, target audience and conversion goals."
+      },
+      {
+        "q": "How much does a project usually cost?",
+        "a": "Pricing depends on scope, timeline and technical requirements. Reach out with your project details for a tailored quote."
+      }
+    ]
+  },
+  "Inquiry": {
+    "section": {
+      "eyebrow": "Ready To Upgrade?",
+      "heading": "Let’s modernize your website and turn it into a real growth asset.",
+      "body": "Tell us about your current website, business goals and what you want to improve. You will get a clear, business-focused response.",
+      "cta": "Request Your Custom Website Inquiry"
+    },
+    "form": {
+      "title": "Tell us about your website project",
+      "labels": {
+        "name": "Name",
+        "email": "Business Email",
+        "company": "Company",
+        "need_type": "What do you need?",
+        "project_details": "Project Details"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "you@company.com",
+        "company": "Your company",
+        "project_details": "Briefly describe your website goals or current challenges."
+      },
+      "needPlaceholder": "Select one",
+      "needChoices": [
+        { "value": "New Website", "label": "New Website" },
+        { "value": "Website Redesign", "label": "Website Redesign" },
+        { "value": "Website Upgrade / Migration", "label": "Website Upgrade / Migration" },
+        { "value": "Ongoing Improvements", "label": "Ongoing Improvements" },
+        { "value": "Not sure yet", "label": "Not sure yet" }
+      ],
+      "submit": "Send Inquiry",
+      "submitting": "Sending inquiry..."
+    },
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "Please enter a valid email address.",
+      "needTypeRequired": "Please select what you need.",
+      "checkFields": "Please check the highlighted fields.",
+      "saveError": "We could not save your inquiry right now.",
+      "saveErrorMessage": "Something went wrong while saving your inquiry. Please try again.",
+      "success": "Your inquiry has been sent successfully.",
+      "configMessage": "The form is not configured yet. Please add your Supabase environment variables.",
+      "configError": "Missing Supabase configuration. Add NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY to .env.local."
+    }
+  },
+  "Footer": {
+    "heading": "Eurolux Digital",
+    "tagline": "Premium website build, redesign and upgrade for businesses that want a credible digital presence and more qualified inquiries.",
+    "imprint": "Imprint",
+    "privacy": "Data privacy"
+  }
+}

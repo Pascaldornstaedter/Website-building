@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { DM_Sans, Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { ScrollReset } from "@/components/scroll-reset";
 import "./globals.css";
@@ -21,19 +20,13 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Eurolux Digital | Websites That Win Business",
-  description:
-    "Eurolux Digital helps businesses build, redesign, and upgrade websites that look professional, build trust, and generate leads.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html className="dark" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${plusJakarta.variable} ${dmSans.variable} min-h-screen font-sans`}
       >

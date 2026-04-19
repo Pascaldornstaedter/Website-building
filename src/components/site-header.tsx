@@ -1,19 +1,22 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { LanguageSwitcher } from "@/components/language-switcher";
 import { cn } from "@/lib/utils";
 
-const nav = [
-  { href: "/#services", label: "Services" },
-  { href: "/#why", label: "Why Work With Us" },
-  { href: "/#process", label: "Process" },
-  { href: "/#faq", label: "FAQ" },
+const navHashes = [
+  { hash: "services", labelKey: "services" as const },
+  { hash: "why", labelKey: "why" as const },
+  { hash: "process", labelKey: "process" as const },
+  { hash: "faq", labelKey: "faq" as const },
 ];
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const t = useTranslations("Nav");
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-primary/[0.16] bg-background/90 shadow-[0_1px_0_0_hsl(var(--primary)/0.08)] backdrop-blur-xl supports-[backdrop-filter]:bg-background/65">
@@ -25,38 +28,40 @@ export function SiteHeader() {
           <span className="bg-gradient-to-br from-primary to-secondary bg-clip-text text-base font-bold text-transparent md:text-lg">
             ED
           </span>
-          <span className="hidden font-dm text-sm font-medium text-foreground/90 sm:inline">
-            Eurolux Digital
-          </span>
+          <span className="hidden font-dm text-sm font-medium text-foreground/90 sm:inline">{t("brand")}</span>
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex">
-          {nav.map((item) => (
+        <nav className="hidden items-center gap-5 md:flex md:gap-6">
+          {navHashes.map((item) => (
             <Link
-              key={item.href}
-              href={item.href}
+              key={item.hash}
+              href={{ pathname: "/", hash: item.hash }}
               className="font-dm text-sm font-medium text-link transition hover:text-foreground"
             >
-              {item.label}
+              {t(item.labelKey)}
             </Link>
           ))}
           <Link
-            href="/#inquiry"
+            href={{ pathname: "/", hash: "inquiry" }}
             className="rounded-full bg-primary px-4 py-2 font-dm text-sm font-semibold text-primary-foreground shadow-md shadow-primary/20 transition hover:brightness-95"
           >
-            Request a Website Inquiry
+            {t("cta")}
           </Link>
+          <LanguageSwitcher />
         </nav>
 
-        <button
-          type="button"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/[0.04] text-foreground shadow-[0_0_0_1px_hsl(var(--primary)/0.2)] backdrop-blur-sm md:hidden"
-          aria-expanded={open}
-          aria-label={open ? "Close menu" : "Open menu"}
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <LanguageSwitcher />
+          <button
+            type="button"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/[0.04] text-foreground shadow-[0_0_0_1px_hsl(var(--primary)/0.2)] backdrop-blur-sm"
+            aria-expanded={open}
+            aria-label={open ? t("menuClose") : t("menuOpen")}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
       </div>
 
       <div
@@ -66,22 +71,22 @@ export function SiteHeader() {
         )}
       >
         <div className="mx-auto flex max-w-6xl flex-col gap-1">
-          {nav.map((item) => (
+          {navHashes.map((item) => (
             <Link
-              key={item.href}
-              href={item.href}
+              key={item.hash}
+              href={{ pathname: "/", hash: item.hash }}
               className="font-dm rounded-lg px-3 py-2.5 text-sm font-medium text-link transition hover:bg-primary/[0.06] hover:text-foreground"
               onClick={() => setOpen(false)}
             >
-              {item.label}
+              {t(item.labelKey)}
             </Link>
           ))}
           <Link
-            href="/#inquiry"
+            href={{ pathname: "/", hash: "inquiry" }}
             className="mt-2 rounded-full bg-primary px-4 py-2.5 text-center font-dm text-sm font-semibold text-primary-foreground"
             onClick={() => setOpen(false)}
           >
-            Request a Website Inquiry
+            {t("cta")}
           </Link>
         </div>
       </div>

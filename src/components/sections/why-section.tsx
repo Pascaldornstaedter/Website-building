@@ -1,35 +1,25 @@
 import Image from "next/image";
 import { Check } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { FadeIn } from "@/components/ui/fade-in";
 
-const benefits = [
-  "Modern, premium visual direction aligned with business credibility",
-  "Custom strategy and structure, not one-size-fits-all templates",
-  "Fast, clear collaboration with direct communication",
-  "Conversion-focused decisions from layout to messaging to CTAs",
-  "Practical support for moving beyond outdated or limited setups",
-  "Built around your real-world goals: inquiries, trust and growth",
-];
+export async function WhySection() {
+  const t = await getTranslations("Why");
+  const benefits = t.raw("benefits") as string[];
 
-export function WhySection() {
   return (
     <section id="why" className="section-flow relative py-20 md:py-28">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_64%_at_88%_20%,hsl(144_100%_50%_/_0.06),transparent_56%),linear-gradient(to_bottom,hsl(144_85%_18%_/_0.2),transparent_36%,hsl(144_85%_18%_/_0.09)_100%)]" />
       <div className="relative mx-auto grid w-full max-w-6xl gap-12 px-4 md:grid-cols-2 md:items-end md:gap-16 md:px-6">
         <FadeIn>
-          <p className="eyebrow">Why Work With Me</p>
-          <h2 className="mt-3 text-2xl md:text-3xl lg:text-4xl">
-            Optimal execution for all industries.
-          </h2>
-          <p className="mt-4 font-sans text-sm leading-relaxed text-muted-foreground md:text-base">
-            You get a team based in germany with a process built around your specific business goals, speed
-            and clarity.
-          </p>
+          <p className="eyebrow">{t("eyebrow")}</p>
+          <h2 className="mt-3 text-2xl md:text-3xl lg:text-4xl">{t("heading")}</h2>
+          <p className="mt-4 font-sans text-sm leading-relaxed text-muted-foreground md:text-base">{t("body")}</p>
           <div className="surface-card mt-6 overflow-hidden rounded-2xl p-1">
             <div className="relative h-44 w-full overflow-hidden rounded-[0.8rem] md:h-48">
               <Image
                 src="https://images.pexels.com/photos/21412230/pexels-photo-21412230.jpeg"
-                alt="Hamburg harbor skyline at dusk representing strong logistics and business infrastructure"
+                alt={t("imageAlt")}
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 768px) 100vw, 50vw"

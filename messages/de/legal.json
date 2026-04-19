@@ -1,0 +1,133 @@
+{
+  "Legal": {
+    "back": "← Zurück zur Startseite",
+    "imprint": {
+      "title": "Impressum",
+      "lead": "Impressum: Angaben gemäß § 5 TMG",
+      "blocks": [
+        {
+          "title": "Eurolux Group",
+          "body": "Ingelsberger Weg 26\n85604 Zorneding"
+        },
+        {
+          "title": "Vertreten durch",
+          "body": "Pascal Dornstädter"
+        },
+        {
+          "title": "Kontakt",
+          "body": "Telefon: +49 160 9386 9490\nE-Mail: business.dornstaedter@gmail.com"
+        },
+        {
+          "title": "Datenschutzbeauftragter",
+          "body": "Pascal Dornstädter"
+        },
+        {
+          "title": "Redaktionell verantwortlich",
+          "body": "Pascal Dornstädter"
+        },
+        {
+          "title": "EU-Streitschlichtung",
+          "body": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\n\nUnsere E-Mail-Adresse finden Sie oben im Impressum."
+        },
+        {
+          "title": "Haftung für Inhalte externer Links",
+          "body": "Unsere Website kann Links zu externen Websites Dritter enthalten, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen."
+        },
+        {
+          "title": "Urheberrecht",
+          "body": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis."
+        }
+      ],
+      "footer": "© 2026 Eurolux Group. Alle Rechte vorbehalten."
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "sections": [
+        {
+          "title": "Allgemeine Hinweise",
+          "paragraphs": [
+            "Die Verarbeitung Ihrer personenbezogenen Daten (d.h. aller Daten, mit denen Sie eindeutig identifiziert werden können) ist erforderlich, um unsere vertraglichen Verpflichtungen Ihnen gegenüber zu erfüllen und Ihnen unsere Dienstleistungen anbieten zu können, unsere berechtigten Interessen zu schützen sowie gesetzlichen und regulatorischen Verpflichtungen nachzukommen.",
+            "Mit der Nutzung dieser Website erklären Sie sich damit einverstanden, dass Ihre personenbezogenen Daten wie in dieser Datenschutzerklärung beschrieben erhoben, gespeichert, genutzt und anderweitig verarbeitet werden.",
+            "Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.",
+            "Bitte lesen Sie diese Datenschutzhinweise sorgfältig, bevor Sie Entscheidungen treffen."
+          ]
+        },
+        {
+          "title": "Hinweis zur verantwortlichen Stelle",
+          "paragraphs": [
+            "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+            "Pascal Dornstädter\nIngelsberger Weg 26\n85604 Zorneding\nTelefon: +49 160 9386 9490\nE-Mail: business.dornstaedter@gmail.com",
+            "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung personenbezogener Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet."
+          ]
+        },
+        {
+          "title": "Speicherdauer",
+          "paragraphs": [
+            "Wir speichern personenbezogene Daten nur so lange, wie es zur Erbringung unserer Leistungen, zur Erfüllung gesetzlicher Pflichten, zur Klärung von Streitigkeiten und zur Durchsetzung unserer Regelungen erforderlich ist. Die Aufbewahrungsfristen hängen von Art und Zweck der Daten ab; zugleich streben wir an, veraltete, nicht mehr benötigte Informationen zu löschen. Aufzeichnungen können gemäß geltenden Gesetzen und Vorschriften enthaltene personenbezogene Daten umfassen. Unvollständige oder unrichtige Daten können wir jederzeit berichtigen, ergänzen oder löschen."
+          ]
+        },
+        {
+          "title": "Widerruf Ihrer Einwilligung zur Datenverarbeitung",
+          "paragraphs": [
+            "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt."
+          ]
+        },
+        {
+          "title": "Beschwerderecht bei der zuständigen Aufsichtsbehörde",
+          "paragraphs": [
+            "Im Falle von Verstößen gegen die DSGVO steht Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde zu, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe."
+          ]
+        },
+        {
+          "title": "SSL-Verschlüsselung",
+          "paragraphs": [
+            "Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte nutzt diese Website SSL-Verschlüsselung (Schlosssymbol in der Browserzeile). Bei aktivierter SSL-Verschlüsselung können die von Ihnen übermittelten Daten nicht von Dritten mitgelesen werden."
+          ]
+        },
+        {
+          "title": "Recht auf Einschränkung der Verarbeitung",
+          "paragraphs": [
+            "Sie haben insbesondere folgende Rechte:",
+            "Auskunft darüber, ob und in welchem Umfang personenbezogene Daten verarbeitet werden, Zugang zu den gespeicherten Daten und zusätzliche Informationen",
+            "Herausgabe einer Kopfrei der von Ihnen bereitgestellten Daten in einem strukturierten, gängigen und maschinenlesbaren Format",
+            "Berichtigung unrichtiger Daten",
+            "Löschung personenbezogener Daten",
+            "Widerspruch gegen die Verarbeitung",
+            "Einschränkung der Verarbeitung",
+            "Beschwerde bei einer Aufsichtsbehörde",
+            "Bitte beachten Sie, dass diese Rechte nicht unbeschränkt gelten, sondern unseren berechtigten Interessen sowie gesetzlichen Vorgaben unterliegen können."
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "Wir verwenden ausschließlich technisch notwendige Cookies (funktionale Cookies) und keine Performance- oder Marketing-Cookies wie \"Google Analytics\". Daher gibt es auf dieser Website keinen separaten Cookie-Banner."
+          ]
+        },
+        {
+          "title": "Kontaktformular",
+          "paragraphs": [
+            "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+            "Sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO. Andernfalls erfolgt die Verarbeitung auf Grundlage unseres berechtigten Interesses an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), sofern diese eingeholt wurde.",
+            "Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Aufbewahrungsfristen bleiben unberührt."
+          ]
+        },
+        {
+          "title": "Anfragen per E-Mail oder Telefon",
+          "paragraphs": [
+            "Wenn Sie uns per E-Mail oder Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+            "Sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO. Andernfalls erfolgt die Verarbeitung auf Grundlage unseres berechtigten Interesses an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), sofern diese eingeholt wurde.",
+            "Die Daten aus Kontaktanfragen verbleiben bei uns, bis Sie die Löschung verlangen, Ihre Einwilligung widerrufen oder der Speicherzweck entfällt. Zwingende gesetzliche Aufbewahrungsfristen bleiben unberührt."
+          ]
+        },
+        {
+          "title": "Kontakt",
+          "paragraphs": [
+            "Wenn Sie Fragen zum Datenschutz haben oder eine Beschwerde einreichen möchten, kontaktieren Sie uns bitte per E-Mail oder Telefon über die oben genannten Kontaktdaten."
+          ]
+        }
+      ],
+      "footer": "© 2026 Eurolux Group. Alle Rechte vorbehalten."
+    }
+  }
+}

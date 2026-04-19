@@ -2,6 +2,7 @@
 
 import { useActionState, useEffect, useRef, useState } from "react";
 import { AlertCircle, CheckCircle2 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { submitWebsiteInquiry } from "@/app/actions/website-inquiry";
 import { InquirySubmitButton } from "@/components/inquiry-submit-button";
 import { initialInquiryFormState } from "@/lib/inquiry-form";
@@ -10,7 +11,11 @@ import { cn } from "@/lib/utils";
 const inputClass =
   "w-full rounded-xl bg-background/40 px-3 py-2.5 font-sans text-sm text-foreground shadow-[0_0_0_1px_hsl(var(--border))] placeholder:text-muted-foreground/70 outline-none transition focus:shadow-[0_0_0_1px_hsl(var(--primary)/0.45)] focus:ring-2 focus:ring-primary/20";
 
+type NeedChoice = { value: string; label: string };
+
 export function InquiryForm() {
+  const t = useTranslations("Inquiry.form");
+  const needChoices = t.raw("needChoices") as NeedChoice[];
   const formRef = useRef<HTMLFormElement>(null);
   const [state, formAction] = useActionState(submitWebsiteInquiry, initialInquiryFormState);
   const [formValues, setFormValues] = useState(initialInquiryFormState.values);
@@ -50,9 +55,7 @@ export function InquiryForm() {
       <div className="pointer-events-none absolute -right-24 -top-24 h-48 w-48 rounded-full bg-primary/15 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-20 -left-16 h-40 w-40 rounded-full bg-secondary/40 blur-3xl" />
 
-      <h3 className="relative font-heading text-lg font-semibold tracking-tight">
-        Tell us about your website project
-      </h3>
+      <h3 className="relative font-heading text-lg font-semibold tracking-tight">{t("title")}</h3>
 
       <div className="relative mt-6 grid gap-4">
         {formErrors.form ? (
@@ -70,50 +73,46 @@ export function InquiryForm() {
         ) : null}
 
         <label className="grid gap-1.5 font-dm text-sm font-medium text-muted-foreground">
-          Name
+          {t("labels.name")}
           <input
             className={cn(inputClass, formErrors.name && "shadow-[0_0_0_1px_rgba(239,68,68,0.55)]")}
             type="text"
             name="name"
-            placeholder="Your name"
+            placeholder={t("placeholders.name")}
             value={formValues.name}
             onChange={(event) => updateField("name", event.target.value)}
             required
             aria-invalid={Boolean(formErrors.name)}
           />
-          {formErrors.name ? (
-            <span className="text-xs text-red-300">{formErrors.name}</span>
-          ) : null}
+          {formErrors.name ? <span className="text-xs text-red-300">{formErrors.name}</span> : null}
         </label>
         <label className="grid gap-1.5 font-dm text-sm font-medium text-muted-foreground">
-          Business Email
+          {t("labels.email")}
           <input
             className={cn(inputClass, formErrors.email && "shadow-[0_0_0_1px_rgba(239,68,68,0.55)]")}
             type="email"
             name="email"
-            placeholder="you@company.com"
+            placeholder={t("placeholders.email")}
             value={formValues.email}
             onChange={(event) => updateField("email", event.target.value)}
             required
             aria-invalid={Boolean(formErrors.email)}
           />
-          {formErrors.email ? (
-            <span className="text-xs text-red-300">{formErrors.email}</span>
-          ) : null}
+          {formErrors.email ? <span className="text-xs text-red-300">{formErrors.email}</span> : null}
         </label>
         <label className="grid gap-1.5 font-dm text-sm font-medium text-muted-foreground">
-          Company
+          {t("labels.company")}
           <input
             className={cn(inputClass)}
             type="text"
             name="company"
-            placeholder="Your company"
+            placeholder={t("placeholders.company")}
             value={formValues.company}
             onChange={(event) => updateField("company", event.target.value)}
           />
         </label>
         <label className="grid gap-1.5 font-dm text-sm font-medium text-muted-foreground">
-          What do you need?
+          {t("labels.need_type")}
           <select
             className={cn(
               inputClass,
@@ -126,24 +125,24 @@ export function InquiryForm() {
             required
             aria-invalid={Boolean(formErrors.need_type)}
           >
-            <option value="">Select one</option>
-            <option value="New Website">New Website</option>
-            <option value="Website Redesign">Website Redesign</option>
-            <option value="Website Upgrade / Migration">Website Upgrade / Migration</option>
-            <option value="Ongoing Improvements">Ongoing Improvements</option>
-            <option value="Not sure yet">Not sure yet</option>
+            <option value="">{t("needPlaceholder")}</option>
+            {needChoices.map((choice) => (
+              <option key={choice.value} value={choice.value}>
+                {choice.label}
+              </option>
+            ))}
           </select>
           {formErrors.need_type ? (
             <span className="text-xs text-red-300">{formErrors.need_type}</span>
           ) : null}
         </label>
         <label className="grid gap-1.5 font-dm text-sm font-medium text-muted-foreground">
-          Project Details
+          {t("labels.project_details")}
           <textarea
             className={cn(inputClass, "min-h-[120px] resize-y")}
             name="project_details"
             rows={4}
-            placeholder="Briefly describe your website goals or current challenges."
+            placeholder={t("placeholders.project_details")}
             value={formValues.project_details}
             onChange={(event) => updateField("project_details", event.target.value)}
           />

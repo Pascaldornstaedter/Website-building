@@ -1,0 +1,133 @@
+{
+  "Legal": {
+    "back": "← Back to home",
+    "imprint": {
+      "title": "Imprint",
+      "lead": "Imprint: Information according to § 5 TMG",
+      "blocks": [
+        {
+          "title": "Eurolux Group",
+          "body": "Ingelsberger Weg 26\n85604 Zorneding"
+        },
+        {
+          "title": "Represented by",
+          "body": "Pascal Dornstädter"
+        },
+        {
+          "title": "Contact",
+          "body": "Telephone: +49 160 9386 9490\nE-Mail: business.dornstaedter@gmail.com"
+        },
+        {
+          "title": "Data protection officer",
+          "body": "Pascal Dornstädter"
+        },
+        {
+          "title": "Editorially responsible",
+          "body": "Pascal Dornstädter"
+        },
+        {
+          "title": "EU dispute resolution",
+          "body": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/.\n\nYou can find our e-mail address in the legal notice above."
+        },
+        {
+          "title": "Limitation of liability for external links",
+          "body": "Our website may contain links to external third-party websites over whose content we have no influence. We can therefore accept no liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognisable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of an infringement. If we become aware of any legal infringements, we will remove such links immediately."
+        },
+        {
+          "title": "Copyright",
+          "body": "The content and works created by the site operators on these pages are subject to German copyright law. Reproduction, editing, distribution and any kind of utilisation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. Should you nevertheless become aware of a copyright infringement, please inform us accordingly."
+        }
+      ],
+      "footer": "© 2026 Eurolux Group. All rights reserved."
+    },
+    "privacy": {
+      "title": "Data protection",
+      "sections": [
+        {
+          "title": "General information",
+          "paragraphs": [
+            "The processing of your personal data (i.e. any data that can reasonably be used to identify you) is necessary to fulfil our contractual obligations to you and to enable us to provide you with our services, protect our legitimate interests and comply with legal and financial regulatory obligations to which we are subject.",
+            "By using this website, you consent to the collection, storage, use and other utilisation of your personal data as described in this Data protection.",
+            "We would like to point out that data transmission over the Internet (e.g. when communicating by e-mail) may be subject to security vulnerabilities. Complete protection of data against access by third parties is not possible.",
+            "Please read the data protection provisions carefully before making any decisions."
+          ]
+        },
+        {
+          "title": "Note on the responsible body",
+          "paragraphs": [
+            "The controller responsible for data processing on this website is:",
+            "Pascal Dornstädter\nIngelsberger Weg 26\n85604 Zorneding\nTelephone: +49 160 9386 9490\nE-mail: business.dornstaedter@gmail.com",
+            "The controller is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data (e.g. names, e-mail addresses, etc.)."
+          ]
+        },
+        {
+          "title": "Storage period",
+          "paragraphs": [
+            "We will retain your personal data for as long as necessary to provide our services, comply with legal obligations, resolve disputes and enforce our policies. The retention periods depend on the type of data collected and the purpose for which it was collected, taking into account both the case-specific circumstances and the need to delete outdated, unused information as soon as possible. We store records containing personal data of customers, account set-up documents, communications and other data in accordance with applicable laws and regulations. We may correct, complete or remove incomplete or inaccurate data at any time and at our sole discretion."
+          ]
+        },
+        {
+          "title": "Revocation of your consent to data processing",
+          "paragraphs": [
+            "Many data processing operations are only possible with your express consent. You can withdraw your consent at any time. The legality of the data processing carried out until the revocation remains unaffected by the revocation."
+          ]
+        },
+        {
+          "title": "Right to lodge a complaint with the competent supervisory authority",
+          "paragraphs": [
+            "In the event of violations of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority, in particular in the Member State of their habitual residence, place of work or place of the alleged violation. The right to lodge a complaint is without prejudice to any other administrative or judicial remedies."
+          ]
+        },
+        {
+          "title": "SSL encryption",
+          "paragraphs": [
+            "For security reasons and to protect the transmission of confidential content, such as enquiries that you send to us as the site operator, this site uses SSL encryption (padlock symbol in the browser line). If SSL encryption is activated, the data you transmit to us cannot be read by third parties."
+          ]
+        },
+        {
+          "title": "Right to restriction of processing",
+          "paragraphs": [
+            "You have the following rights:",
+            "Request confirmation as to whether and to what extent your personal data is being used and processed, as well as access to the personal data stored about you and additional information",
+            "Request a copy of the personal data that you have voluntarily provided to us in a structured, commonly used and machine-readable format",
+            "Request rectification of the personal data we hold about you",
+            "Request the erasure of your personal data",
+            "Object to the processing of your personal data by us",
+            "Request the restriction of the processing of your personal data by us",
+            "Lodge a complaint with a supervisory authority",
+            "Please note, however, that these rights do not apply without restriction, but are subject to our own legitimate interests and official regulations."
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "We only use cookies which are technically necessary (functional cookies) and no performance or marketing cookies like \"Google analytics\". Therefore this website does not contain a so called \"cookie banner\"."
+          ]
+        },
+        {
+          "title": "Contact form",
+          "paragraphs": [
+            "If you send us enquiries via the contact form, your details from the enquiry form, including the contact details you provide there, will be stored by us for the purpose of processing the enquiry and in the event of follow-up questions. We will not pass on this data without your consent.",
+            "This data is processed on the basis of Art. 6 para. 1 lit. b GDPR if your enquiry is related to the fulfilment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the enquiries addressed to us (Art. 6 para. 1 lit. f GDPR) or on your consent (Art. 6 para. 1 lit. a GDPR) if this has been requested.",
+            "We will retain the data you provide on the contact form until you request its deletion, revoke your consent for its storage, or the purpose for its storage no longer pertains (e.g. after fulfilling your request). Mandatory statutory provisions - in particular retention periods - remain unaffected."
+          ]
+        },
+        {
+          "title": "Enquiries by e-mail or telephone",
+          "paragraphs": [
+            "If you contact us by e-mail or telephone, your enquiry including all personal data (name, enquiry) will be stored and processed by us for the purpose of processing your request. We will not pass on this data without your consent.",
+            "This data is processed on the basis of Art. 6 para. 1 lit. b GDPR if your enquiry is related to the fulfilment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the enquiries addressed to us (Art. 6 para. 1 lit. f GDPR) or on your consent (Art. 6 para. 1 lit. a GDPR) if this has been requested.",
+            "The data you send to us via contact requests will remain with us until you ask us to delete it, revoke your consent to storage or the purpose for data storage no longer applies (e.g. after your request has been processed). Mandatory statutory provisions - in particular statutory retention periods - remain unaffected."
+          ]
+        },
+        {
+          "title": "Contact us",
+          "paragraphs": [
+            "For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail or telephone using the details provided above."
+          ]
+        }
+      ],
+      "footer": "© 2026 Eurolux Group. All rights reserved."
+    }
+  }
+}

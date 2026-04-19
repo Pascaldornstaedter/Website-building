@@ -1,0 +1,198 @@
+{
+  "Metadata": {
+    "site": {
+      "title": "Eurolux Digital | Websites, die besser funktionieren",
+      "description": "Eurolux Digital hilft Unternehmen dabei, Websites zu erstellen, neu zu gestalten und zu optimieren - professionell, vertrauenswürdig und lead-orientiert."
+    },
+    "imprint": {
+      "title": "Impressum | Eurolux Digital",
+      "description": "Impressum und rechtliche Angaben zur Eurolux Group."
+    },
+    "privacy": {
+      "title": "Datenschutz | Eurolux Digital",
+      "description": "Datenschutzerklärung und Informationen zur Datenverarbeitung der Eurolux Group."
+    }
+  },
+  "Nav": {
+    "services": "Leistungen",
+    "why": "Warum wir",
+    "process": "Ablauf",
+    "faq": "FAQ",
+    "cta": "Website-Anfrage stellen",
+    "brand": "Eurolux Digital",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "langDe": "DE",
+    "langEn": "EN"
+  },
+  "Hero": {
+    "eyebrow": "Bau. Redesign. Upgrade.",
+    "title": "Websites, die Ihre Marke präzise repräsentieren.",
+    "subtitle": "Wir helfen Unternehmen, moderne und glaubwürdige Websites zu launchen - mit klarer Positionierung, stärkerem Vertrauen und mehr qualifizierten Anfragen.",
+    "ctaPrimary": "Projekt besprechen",
+    "ctaSecondary": "So funktioniert’s",
+    "footnoteHtml": "Noch unsicher? Fragen Sie nach einer <strong>neuen Website</strong>, einem <strong>Redesign</strong>, einem <strong>Upgrade</strong> oder <strong>laufenden Verbesserungen</strong>."
+  },
+  "Problem": {
+    "eyebrow": "Das Geschäftsproblem",
+    "heading": "Ihre Website kann Vertrauen kosten, bevor Sie überhaupt mit einem Kunden sprechen.",
+    "items": [
+      {
+        "title": "Veralteter erster Eindruck",
+        "body": "Wenn Ihre Seite alt oder uneinheitlich wirkt, nehmen Interessenten das oft als Indiz schwächere Servicequalität."
+      },
+      {
+        "title": "Unklarer Nutzen",
+        "body": "Besucher springen ab, wenn nicht schnell klar ist, was Sie tun und warum man gerade Sie wählen sollte."
+      },
+      {
+        "title": "Begrenzte Plattformen",
+        "body": "Einfache Setups bremsen Performance, Flexibilität und langfristiges Wachstum oft aus."
+      },
+      {
+        "title": "Schwache Conversion",
+        "body": "Eine Website, welche online nur existiert, reicht oft nicht aus - sie sollte gezielt zu Anfragen führen."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Leistungen",
+    "heading": "Website-Services für unterschiedliche Anforderungen.",
+    "items": [
+      {
+        "title": "Neue Website",
+        "body": "Professionelle Website von Grund auf: klare Struktur, starke Botschaften und Seiten, die Anfragen bringen."
+      },
+      {
+        "title": "Website-Redesign",
+        "body": "Aus veraltet wird modern: ein glaubwürdiges Erlebnis, das zu Ihrem Unternehmensniveau passt."
+      },
+      {
+        "title": "Upgrade / Migration",
+        "body": "Weg von limitierten Setups - hin zu mehr Performance, Flexibilität und Professionalität."
+      },
+      {
+        "title": "Laufende Optimierung",
+        "body": "Bleiben Sie aktuell mit iterativen Verbesserungen, Updates und Conversion-Feintuning."
+      }
+    ]
+  },
+  "Why": {
+    "eyebrow": "Warum mit uns arbeiten",
+    "heading": "Starke Umsetzung - branchenübergreifend.",
+    "body": "Sie arbeiten mit einem Team aus Deutschland - strukturiert, schnell und klar auf Ihre Ziele ausgerichtet.",
+    "imageAlt": "Hamburger Hafen in der Abenddämmerung - Symbol für starke Infrastruktur und Wirtschaft",
+    "benefits": [
+      "Moderne, hochwertige visuelle Richtung mit Business-Glaubwürdigkeit",
+      "Strategie und Struktur nach Maß - keine Einheitslösung",
+      "Schnelle, klare Zusammenarbeit mit direkter Kommunikation",
+      "Conversion-orientiert - von Layout über Text bis zu CTAs",
+      "Pragmatische Unterstützung beim Wechsel von veralteten Setups",
+      "Ausrichtung auf echte Ziele: Anfragen, Vertrauen und Wachstum"
+    ]
+  },
+  "Process": {
+    "eyebrow": "Einfacher Ablauf",
+    "heading": "Ein klarer Weg von der Anfrage bis zum Launch.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Anfrage",
+        "body": "Teilen Sie uns Ihre Ausgangslage, Ziele und Prioritäten mit."
+      },
+      {
+        "num": "02",
+        "title": "Konzept / Review",
+        "body": "Struktur, Richtung und der passende Ansatz für Ihr Business."
+      },
+      {
+        "num": "03",
+        "title": "Build / Relaunch",
+        "body": "Umsetzung einer polierten, conversion-orientierten Website-Lösung."
+      },
+      {
+        "num": "04",
+        "title": "Launch / Optimierung",
+        "body": "Sicher live gehen und weiter verbessern, wo es zählt."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "heading": "Häufige Fragen vor dem Start.",
+    "items": [
+      {
+        "q": "Übernehmen Sie auch Relaunches bestehender Websites?",
+        "a": "Ja. Relaunch ist ein Kernthema - besonders bei veraltetem Design, Struktur oder Messaging."
+      },
+      {
+        "q": "Gibt es Support nach dem Launch?",
+        "a": "Ja. Wir bieten laufende Betreuung für iterative Verbesserungen, Content-Updates und Performance."
+      },
+      {
+        "q": "Wie starten wir?",
+        "a": "Starten Sie mit einer Website-Anfrage. Wir klären Ziele und Herausforderungen und empfehlen den nächsten Schritt."
+      },
+      {
+        "q": "Ist jede Lösung wirklich individuell?",
+        "a": "Ja. Jedes Projekt wird auf Kontext, Zielgruppe und Conversion-Ziele zugeschnitten."
+      },
+      {
+        "q": "Was kostet ein Projekt typischerweise?",
+        "a": "Das hängt von Umfang, Timeline und Technik ab. Schreiben Sie uns Details - dann geben wir Ihnen eine passende Einschätzung."
+      }
+    ]
+  },
+  "Inquiry": {
+    "section": {
+      "eyebrow": "Bereit für ein Upgrade?",
+      "heading": "Modernisieren Sie Ihre Website und machen Sie sie zu einem echten Wachstumstreiber.",
+      "body": "Beschreiben Sie Ihre aktuelle Website, Ziele und Verbesserungswünsche. Sie erhalten eine klare, business-orientierte Rückmeldung.",
+      "cta": "Individuelle Website-Anfrage stellen"
+    },
+    "form": {
+      "title": "Erzählen Sie uns von Ihrem Website-Projekt",
+      "labels": {
+        "name": "Name",
+        "email": "Geschäftliche E-Mail",
+        "company": "Unternehmen",
+        "need_type": "Was benötigen Sie?",
+        "project_details": "Projektdetails"
+      },
+      "placeholders": {
+        "name": "Ihr Name",
+        "email": "name@firma.de",
+        "company": "Ihr Unternehmen",
+        "project_details": "Kurz zu Zielen oder aktuellen Herausforderungen."
+      },
+      "needPlaceholder": "Bitte wählen",
+      "needChoices": [
+        { "value": "New Website", "label": "Neue Website" },
+        { "value": "Website Redesign", "label": "Website-Relaunch" },
+        { "value": "Website Upgrade / Migration", "label": "Website-Upgrade / Migration" },
+        { "value": "Ongoing Improvements", "label": "Laufende Verbesserungen" },
+        { "value": "Not sure yet", "label": "Noch unsicher" }
+      ],
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet..."
+    },
+    "validation": {
+      "nameRequired": "Bitte geben Sie Ihren Namen -in.",
+      "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "needTypeRequired": "Bitte wählen Sie aus, was Sie benötigen.",
+      "checkFields": "Bitte prüfen Sie die markierten Felder.",
+      "saveError": "Ihre Anfrage konnte gerade nicht gespeichert werden.",
+      "saveErrorMessage": "Beim Speichern ist etwas schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "success": "Ihre Anfrage wurde erfolgreich gesendet.",
+      "configMessage": "Das Formular ist noch nicht konfiguriert. Bitte Supabase-Umgebungsvariablen setzen.",
+      "configError": "Supabase-Konfiguration fehlt. Bitte NEXT_PUBLIC_SUPABASE_URL und NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY in .env.local setzen."
+    }
+  },
+  "Footer": {
+    "heading": "Eurolux Digital",
+    "tagline": "Premium Website-Neuaufbau, Redesign und Upgrade für Unternehmen, die eine verbesserte digitale Präsenz und mehr qualifizierte Anfragen wollen.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

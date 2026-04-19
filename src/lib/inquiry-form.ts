@@ -15,6 +15,13 @@ export type InquiryFormState = {
   values: InquiryFormValues;
 };
 
+export type InquiryValidationCopy = {
+  nameRequired: string;
+  emailRequired: string;
+  emailInvalid: string;
+  needTypeRequired: string;
+};
+
 export const initialInquiryFormState: InquiryFormState = {
   success: false,
   message: "",
@@ -42,21 +49,21 @@ export function getInquiryFormValues(formData: FormData): InquiryFormValues {
   };
 }
 
-export function validateInquiryForm(values: InquiryFormValues): InquiryFormErrors {
+export function validateInquiryForm(values: InquiryFormValues, copy: InquiryValidationCopy): InquiryFormErrors {
   const errors: InquiryFormErrors = {};
 
   if (!values.name) {
-    errors.name = "Please enter your name.";
+    errors.name = copy.nameRequired;
   }
 
   if (!values.email) {
-    errors.email = "Please enter your email address.";
+    errors.email = copy.emailRequired;
   } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) {
-    errors.email = "Please enter a valid email address.";
+    errors.email = copy.emailInvalid;
   }
 
   if (!values.need_type) {
-    errors.need_type = "Please select what you need.";
+    errors.need_type = copy.needTypeRequired;
   }
 
   return errors;

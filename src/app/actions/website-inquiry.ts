@@ -1,5 +1,6 @@
 "use server";
 
+import { getTranslations } from "next-intl/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import {
   getInquiryFormValues,
@@ -12,14 +13,21 @@ export async function submitWebsiteInquiry(
   _prevState: InquiryFormState,
   formData: FormData
 ): Promise<InquiryFormState> {
-  const values = getInquiryFormValues(formData);
+  const t = await getTranslations("Inquiry.validation");
+  const validationCopy = {
+    nameRequired: t("nameRequired"),
+    emailRequired: t("emailRequired"),
+    emailInvalid: t("emailInvalid"),
+    needTypeRequired: t("needTypeRequired"),
+  };
 
-  const errors = validateInquiryForm(values);
+  const values = getInquiryFormValues(formData);
+  const errors = validateInquiryForm(values, validationCopy);
 
   if (Object.keys(errors).length > 0) {
     return {
       success: false,
-      message: "Please check the highlighted fields.",
+      message: t("checkFields"),
       errors,
       values,
     };
@@ -41,24 +49,24 @@ export async function submitWebsiteInquiry(
     if (error) {
       return {
         success: false,
-        message: "Something went wrong while saving your inquiry. Please try again.",
-        errors: { form: "We could not save your inquiry right now." },
+        message: t("saveErrorMessage"),
+        errors: { form: t("saveError") },
         values,
       };
     }
 
     return {
       success: true,
-      message: "Your inquiry has been sent successfully.",
+      message: t("success"),
       errors: {},
       values: initialInquiryFormState.values,
     };
   } catch {
     return {
       success: false,
-      message: "The form is not configured yet. Please add your Supabase environment variables.",
+      message: t("configMessage"),
       errors: {
-        form: "Missing Supabase configuration. Add NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY to .env.local.",
+        form: t("configError"),
       },
       values,
     };
